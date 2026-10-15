@@ -7,6 +7,7 @@ import Stats from './components/Stats'
 import Grain from './components/Grain'
 import Contact from './components/Contact'
 import Work from './components/Work'
+import Services from './components/Services'
 
 export default function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function App() {
       <main>
         <Hero />
         <Stats />
+        <Services />
         <Work />
         <Contact />
       </main>

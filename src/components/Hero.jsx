@@ -52,7 +52,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.1, duration: 0.8 }}
-        className="ml-auto mt-16 max-w-xs text-right text-sm leading-relaxed text-white/60"
+        className="ml-auto mt-16 max-w-xs text-right text-md leading-relaxed text-white/90"
       >
         We build fast, scalable products and the brands around them. Strategy, design and engineering under one roof.
       </motion.p>
